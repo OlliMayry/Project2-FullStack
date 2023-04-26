@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Connect to MongoDB database
-mongoose.connect('mongodb+srv://ollimayry:nIPRRhb1qiPvH5hT@cluster0.xf53rqo.mongodb.net/test')
+mongoose.connect('mongodb+srv://ollimayry:nIPRRhb1qiPvH5hT@cluster0.xf53rqo.mongodb.net/?retryWrites=true&w=majority')
   .then(() => console.log('MongoDB connected'))
   .catch(err => console.log(err));
 
