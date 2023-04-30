@@ -9,4 +9,4 @@ How It Works:
    Then: "npm install mongoose"
    
 3. Run "npm install" on terminal.
-4. Run "node code.js to start the server.
+4. Run "node code.js" to start the server.
